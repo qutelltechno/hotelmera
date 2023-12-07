@@ -1,11 +1,13 @@
 .select {
-  background-color: transparent;
   padding: 1px 35px 1px 10px;
   border-radius: 10px;
   border: 2px solid white;
   color: rgb(255, 255, 255);
   margin-right: 15px;
   cursor: pointer;
+  background-color: red;
+    border-radius: 8px;
+    border: none;
 }
 
 .select option {
