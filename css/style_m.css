@@ -1,0 +1,17 @@
+.select {
+  background-color: transparent;
+  padding: 1px 35px 1px 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: rgb(255, 255, 255);
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.select option {
+  color: black;
+  background-color: transparent;
+}
+.logo {
+  width: 48px;
+}
