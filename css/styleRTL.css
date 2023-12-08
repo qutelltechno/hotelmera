@@ -6317,6 +6317,10 @@ footer.style-2 {
   object-fit: cover;
 }
 
+.owl-stage-outer{
+  direction: ltr;
+}
+
 /* d-carousel */
 .d-carousel {
     position: relative;
@@ -7452,6 +7456,10 @@ section.no-padding {
 
 .owl-custom-nav a {
   text-decoration: none;
+}
+
+..owl-carousel .owl-item{
+  float: right !important;
 }
 
 .owl-custom-nav .btn-prev:hover:before,
