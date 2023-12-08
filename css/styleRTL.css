@@ -9097,6 +9097,11 @@ i.btn-action-hide {
   vertical-align: middle;
 }
 
+
+.small-border{
+  padding-right: 157px;
+}
+
 .overlay30 {
   background: rgba(0, 0, 0, 0.3);
   height: 100%;
@@ -9788,6 +9793,12 @@ direction: ltr;
 /* R E S P O N S I V E */
 /* ================================================== */
 
+.offset-lg-3{
+
+  margin-left: 0;
+  position: relative;
+  right: 299px;
+}
 
 @media (min-width: 1400px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {
@@ -9832,6 +9843,7 @@ header .de-flex {
 
 header .de-flex > .de-flex-col {
   display: block;
+  direction: rtl;
 }
 
 header .de-flex #menu-btn{
@@ -9847,6 +9859,24 @@ header .d-extra{
   position: absolute;
 }
 
+.offset-lg-3{
+  margin-left: 0;
+  position: relative;
+  right: 0;
+
+
+}
+
+.select{
+  position: relative;
+      right: 416px;
+}
+
+#logo{
+  background-size: cover;
+    position: relative;
+    right: 443px;
+}
 
 .float-text{
   display:none !important;
