@@ -1,16 +1,14 @@
 .select {
-  padding: 2px 26px;
+  padding: 0px 15px;
   background: transparent;
-  color: #ca8e46;
-  margin: 0px 15px 0px 0px;
-}
-
-.select option {
-  font-size: 20px;
-  font-weight: 500;
-  background-color: #ca8e46;
-  border: 1px solid black;
   color: white;
+  margin: 0px 15px 0px 0px;
+  border: 1px solid #ca8e46;
+}
+.select:hover{
+  background-color: #ca8e46;
+  color: white;
+  transition: 0.4s;
 }
 .logo {
   width: 48px;
