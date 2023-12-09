@@ -1,316 +1,428 @@
-
 <!DOCTYPE html>
 <html lang="zxx">
-    <head>
-        <meta charset="utf-8">
-        <title>MIRA Hotel</title>
-        <link rel="icon" href="images/logo.jpg" type="image/gif" sizes="16x16" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        <meta name="author" content="">
+  <head>
+    <meta charset="utf-8" />
+    <title>فندق ميرا</title>
+    <link
+      rel="icon"
+      href="images/logo-arabic.jpg"
+      type="image/gif"
+      sizes="16x16"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
 
-        <!-- CSS Files
+    <!-- CSS Files
         ================================================== -->
-        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" id="bootstrap">
-        <link rel="stylesheet" href="css/plugins.css" type="text/css">
-        <link rel="stylesheet" href="css/style.css" type="text/css">
-        <link rel="stylesheet" href="css/style_m.css" type="text/css" />
-        <link rel="stylesheet" href="css/color.css" type="text/css">
+    <link
+      rel="stylesheet"
+      href="css/bootstrap.min.css"
+      type="text/css"
+      id="bootstrap"
+    />
+    <link rel="stylesheet" href="css/plugins.css" type="text/css" />
+    
+    <link rel="stylesheet" href="css/styleRTL.css" type="text/css" />
+    <link rel="stylesheet" href="css/style_m.css" type="text/css" />
+    <link rel="stylesheet" href="css/color.css" type="text/css" />
+    <!--Cairo font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- color scheme -->
-        <link rel="stylesheet" href="css/colors/brown.css" type="text/css" id="colors">
-    </head>
+    <!-- color scheme -->
+    <link
+      rel="stylesheet"
+      href="css/colors/brown.css"
+      type="text/css"
+      id="colors"
+    />
+  </head>
 
-    <body class="has-menu-bar">
-        
-        <div id="wrapper">
-            <!-- header begin -->
-             <header class="header-fullwidth menu-expand transparent">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12">
-                            
-                            <div class="de-flex">
-                                <div class="de-flex-col">
-                                    <!-- logo begin -->
-                                    <div id="logo">
-                                        <a href="index.html">
-                                            <img class="logo" src="images/project_comment_file656f13968349f-Mira-Hotel-Logo.png" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- logo close -->
-                                </div>
-
-                                <div class="de-flex-col">
-
-                                    <ul id="mainmenu">
-                                        <li>
-                                            <a href="index.html">Home</a>
-                                        </li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li>
-                                            <a href="Room.html">Rooms</a>
-                                        </li>
-                                        <li><a href="booking.html">Booking</a></li>
-                                        
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                </div>
-
-                                <div class="de-flex-col">
-                                    <a href="blog-singleRTL.html"><button class="select">Ar</button></a>
-                                    <div class="d-extra">
-                                        <a class="btn-main" href="booking.html">Booking</a>
-                                    </div>
-                                    <div id="menu-btn"></div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
+  <body class="has-menu-bar">
+    <div id="wrapper">
+      <!-- header begin -->
+      <header class="header-fullwidth menu-expand transparent" style="direction: rtl;">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="de-flex">
+                <div class="de-flex-col">
+                  <!-- logo begin -->
+                  <div id="logo">
+                    <a href="index.html">
+                      <img class="logo" src="images/project_comment_file656f1396830b5_Mira_Hotel_Arabic_Logo_full_black.png" alt="" />
+                    </a>
+                  </div>
+                  <!-- logo close -->
                 </div>
-            </header>
-            <!-- header close -->
 
-            <!-- menu overlay begin -->
-            <div id="menu-overlay" class="slideDown">
-                <div class="container-fluid">
-                    <div class="row-fluid">
-                        <div class="col-md-12">
-                            <div id="mo-button-close">
-                                <div class="line-1"></div>
-                                <div class="line-2"></div>
-                            </div>
-
-                            <div class="pt80 pb80">
-                                <div class="mo-nav text-center">
-                                    <a href="index.html">
-                                        <img class="logo" src="images/project_comment_file656f13968349f-Mira-Hotel-Logo.png" alt="">
-                                    </a>
-
-                                    <div class="spacer-single"></div>
-
-                                    <!-- mainmenu begin -->
-                                    <ul id="mo-menu">
-                                        <li>
-                                            <a href="index.html">Home</a>
-                                            Home
-                                           
-                                        </li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li>
-                                            <a href="Room.html">Room</a>
-                                           
-                                        </li>
-                                        <li><a href="booking.html">Booking</a></li>
-                                        
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                    <!-- mainmenu close -->
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="de-flex-col">
+                  <ul id="mainmenu">
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                    <li><a href="gallery.html">المعرض</a></li>
+                    <li><a href="blog.html">مقالات</a></li>
+                    <li><a href="booking.html">الحجز</a></li>
+                    <li>
+                      <a href="Room.html">الغرف</a>
+                    </li>
+                    <li><a href="about.html">ماذا نحن</a></li>
+                    <li>
+                      <a href="index.html">الرئيسيه</a>
+                    </li>
+                  </ul>
                 </div>
+
+                <div class="de-flex-col">
+                  <a href="blog-single-en.html"
+                    ><button class="select" style="padding: 11px;">En</button></a
+                  >
+                  <div class="d-extra">
+                    <a class="btn-main" href="booking-en.html">الحجز</a>
+                  </div>
+                  <div id="menu-btn"></div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- menu overlay close -->
+      </header>
+      <!-- header close -->
 
-        <div id="background" data-bgimage="url(images/background/2.jpg) fixed"></div>
-        <div id="content-absolute">
+      <!-- menu overlay begin -->
+      <div id="menu-overlay" class="slideDown">
+        <div class="container-fluid">
+          <div class="row-fluid">
+            <div class="col-md-12">
+              <div id="mo-button-close">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+              </div>
 
-            <!-- float text begin -->
-            <div class="float-text">
-                <div class="de_social-icons">
-                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+              <div class="pt80 pb80">
+                <div class="mo-nav text-center">
+                  <a href="index.html">
+                    <img class="logo" src="images/project_comment_file656f1396830b5_Mira_Hotel_Arabic_Logo_full_black.png" alt="" />
+                  </a>
+
+                  <div class="spacer-single"></div>
+
+                  <!-- mainmenu begin -->
+                  <ul id="mo-menu">
+                    <li>
+                      <a href="index.html">الرئيسية</a>
+                      الرئيسية
+                    </li>
+                    <li><a href="about.html">ماذا نحن</a></li>
+                    <li>
+                      <a href="Room.html">الغرف</a>
+                    </li>
+                    <li><a href="booking.html">الحجز</a></li>
+
+                    <li><a href="blog.html">مقالات</a></li>
+                    <li><a href="gallery.html">المعرض</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                  </ul>
+                  <!-- mainmenu close -->
                 </div>
-                <span><a href="booking.html">Book Now</a></span>
+              </div>
             </div>
-            <!-- float text close -->
-            
-            <!-- subheader -->
-            <section id="subheader" class="no-bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 offset-md-1 mt-4 text-center">
-                            <h1>The Best Advice You Could Ever Get About Hotel</h1>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="section-main" class="no-bg no-top" aria-label="section-menu">
-                        <div class="container">
-                    <div class="row g-5">
-                        <div class="col-md-10 offset-md-1">
-                            <div class="de-post-read">
-                                    <div class="post-content">
-
-                                        <div class="post-text">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
-                                                
-                                                <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</blockquote>
-                                                
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="post-meta"><span><i class="fa fa-user id-color"></i>By: <a href="#">Lynda Wu</a></span> <span><i class="fa fa-tag id-color"></i><a href="#">News</a>, <a href="#">Events</a></span> <span><i class="fa fa-comment id-color"></i><a href="#">10 Comments</a></span></div>
-                                    
-                                    <div class="spacer-single"></div>
-                                    
-                                    <div id="blog-comment">
-                                <h3>Comments (5)</h3>
-                                
-                                <div class="spacer-half"></div>
-                                
-                                <ol>
-                                    <li>
-                                        <div class="avatar">
-                                            <img src="images/ui/avatar.jpg" alt=""></div>
-                                        <div class="comment-info">
-                                            <span class="c_name">John Smith</span>
-                                            <span class="c_date id-color">8 August 2018</span>
-                                            <span class="c_reply"><a href="#">Reply</a></span>
-                                            <div class="clearfix"></div>
-                                        </div>
-
-                                        <div class="comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem   accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt   explicabo.</div>
-                                        <ol>
-                                            <li>
-                                                <div class="avatar">
-                                                    <img src="images/ui/avatar.jpg" alt=""></div>
-                                                <div class="comment-info">
-                                                    <span class="c_name">John Smith</span>
-                                                    <span class="c_date id-color">8 August 2018</span>
-                                                    <span class="c_reply"><a href="#">Reply</a></span>
-                                                    <div class="clearfix"></div>
-                                                </div>
-                                                <div class="comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem   accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt   explicabo.</div>
-                                            </li>
-                                        </ol>
-                                    </li>
-
-                                    <li>
-                                        <div class="avatar">
-                                            <img src="images/ui/avatar.jpg" alt=""></div>
-                                        <div class="comment-info">
-                                            <span class="c_name">John Smith</span>
-                                            <span class="c_date id-color">8 August 2018</span>
-                                            <span class="c_reply"><a href="#">Reply</a></span>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                        <div class="comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem   accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt   explicabo.</div>
-                                        <ol>
-                                            <li>
-                                                <div class="avatar">
-                                                    <img src="images/ui/avatar.jpg" alt=""></div>
-                                                <div class="comment-info">
-                                                    <span class="c_name">John Smith</span>
-                                                    <span class="c_date id-color">8 August 2018</span>
-                                                    <span class="c_reply"><a href="#">Reply</a></span>
-                                                    <div class="clearfix"></div>
-                                                </div>
-                                                <div class="comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem   accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt   explicabo.</div>
-                                            </li>
-                                        </ol>
-                                    </li>
-
-                                    <li>
-                                        <div class="avatar">
-                                            <img src="images/ui/avatar.jpg" alt=""></div>
-                                        <div class="comment-info">
-                                            <span class="c_name">John Smith</span>
-                                            <span class="c_date id-color">8 August 2018</span>
-                                            <span class="c_reply"><a href="#">Reply</a></span>
-
-                                            <div class="clearfix"></div>
-                                        </div>
-                                        <div class="comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem   accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt   explicabo.</div>
-                                    </li>
-                                </ol>
-                                
-                                <div class="spacer-single"></div>
-
-                                <div id="comment-form-wrapper">
-                                    <h3>Leave a Comment</h3>
-                                    <div class="comment_form_holder">
-                                        <form id="contact_form" name="form1" method="post" action="#">
-
-                                            <label>Name</label>
-                                            <input type="text" name="name" id="name" class="form-control">
-
-                                            <label>Email <span class="req">*</span></label>
-                                            <input type="text" name="email" id="email" class="form-control">
-                                            <div id="error_email" class="error">Please check your email</div>
-
-                                            <label>Message <span class="req">*</span></label>
-                                            <textarea cols="10" rows="10" name="message" id="message" class="form-control"></textarea>
-                                            <div id="error_message" class="error">Please check your message</div>
-                                            <div id="mail_success" class="success">Thank you. Your message has been sent.</div>
-                                            <div id="mail_failed" class="error">Error, email not sent</div>
-
-                                            <p id="btnsubmit">
-                                                <input type="submit" id="send" value="Send" class="btn btn-line"></p>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- subheader close -->
-            <!-- footer begin -->
-            <footer class="no-top pl20 pr20">
-                <div class="subfooter">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6">&copy; Copyright 2023 - Seaside Hotel by <span class="id-color">Designesia</span></div>
-                            <div class="col-md-6 text-right">
-                                <div class="social-icons">
-                                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                    <a href="#"><i class="fa fa-rss fa-lg"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-                                    <a href="#"><i class="fa fa-skype fa-lg"></i></a>
-                                    <a href="#"><i class="fa fa-dribbble fa-lg"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a href="#" id="back-to-top"></a>
-            </footer>
-            <!-- footer close -->
+          </div>
         </div>
+      </div>
+    </div>
+    <!-- menu overlay close -->
 
-        <!-- Javascript Files
+    <div
+      id="background"
+      data-bgimage="url(images/background/2.jpg) fixed"
+    ></div>
+    <div id="content-absolute">
+      <!-- float text begin -->
+      <div class="float-text">
+        <div class="de_social-icons">
+          <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+          <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+          <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+        </div>
+        <span><a href="booking.html">احجز الأن</a></span>
+      </div>
+      <!-- float text close -->
+
+      <!-- subheader -->
+      <section id="subheader" class="no-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 offset-md-1 mt-4 text-center">
+              <h1>أفضل نصيحة يمكنك الحصول عليها بخصوص الفندق</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="section-main" class="no-bg no-top" aria-label="section-menu">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-md-10 offset-md-1">
+              <div class="de-post-read">
+                <div class="post-content">
+                  <div class="post-text">
+                    <p>
+                      في بلد مثل المملكة العربية السعودية تعد نسبة النمو به في
+                      أعلى مستوياتها العالمية، يحظى قطاع الفندقة والإيواء على
+                      أهمية متزايدة سيما وأن قطاع السياحة بدوره في نمو مطرد عاما
+                      بعد عام، ولنا أن نعرف أن حجم الاستثمارات في قطاع الفندقة
+                      المعلن خلال الخمس سنوات القادمة سيكون قرابة 144 مليار
+                      دولار بحسب الهيئة العامة للسياحةوالآثار
+                    </p>
+
+                    <blockquote>
+                      في بلد مثل المملكة العربية السعودية تعد نسبة النمو به في
+                      أعلى مستوياتها العالمية، يحظى قطاع الفندقة والإيواء على
+                      أهمية متزايدة سيما وأن قطاع السياحة بدوره في نمو مطرد عاما
+                      بعد عام، ولنا أن نعرف أن حجم الاستثمارات في قطاع الفندقة
+                      المعلن خلال الخمس سنوات القادمة سيكون قرابة 144 مليار
+                      دولار بحسب الهيئة العامة للسياحةوالآثار
+                    </blockquote>
+
+                    <p>
+                      في بلد مثل المملكة العربية السعودية تعد نسبة النمو به في
+                      أعلى مستوياتها العالمية، يحظى قطاع الفندقة والإيواء على
+                      أهمية متزايدة سيما وأن قطاع السياحة بدوره في نمو مطرد عاما
+                      بعد عام، ولنا أن نعرف أن حجم الاستثمارات في قطاع الفندقة
+                      المعلن خلال الخمس سنوات القادمة سيكون قرابة 144 مليار
+                      دولار بحسب الهيئة العامة للسياحةوالآثار.الأمر الذي يشير
+                      إلى حاجة المدن والمجتمع السعودي للفنادق على تعدد
+                      مستوياتها.وترتفع تلك الحاجة في العاصمة الرياض إلى أعلى
+                      معدلاتها كونها المدينة الأكبرلا على مستوى المملكة فحسب، بل
+                      على مستوى المنطقة بأكملها.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="post-meta">
+                  <span
+                    ><i class="fa fa-user id-color"></i>By:
+                    <a href="#">ميرا م</a></span
+                  >
+                  <span
+                    ><i class="fa fa-tag id-color"></i><a href="#">News</a>,
+                    <a href="#">أحداث</a></span
+                  >
+                  <span
+                    ><i class="fa fa-comment id-color"></i
+                    ><a href="#">10 تعليقات</a></span
+                  >
+                </div>
+
+                <div class="spacer-single"></div>
+
+                <div id="blog-comment">
+                  <h3>تعليقات (5)</h3>
+
+                  <div class="spacer-half"></div>
+
+                  <ol>
+                    <li>
+                      <div class="avatar">
+                        <img src="images/ui/avatar.jpg" alt="" />
+                      </div>
+                      <div class="comment-info">
+                        <span class="c_name">ميرا م</span>
+                        <span class="c_date id-color">8 أغسطس 2018</span>
+                        <span class="c_reply"><a href="#">رد</a></span>
+                        <div class="clearfix"></div>
+                      </div>
+
+                      <div class="comment">
+                        في بلد مثل المملكة العربية السعودية تعد نسبة النمو به في
+                        أعلى مستوياتها العالمية، يحظى قطاع الفندقة والإيواء على
+                        أهمية متزايدة سيما وأن قطاع السياحة بدوره في نمو مطرد
+                        عاما بعد عام، ولنا أن نعرف أن حجم الاستثمارات في قطاع
+                        الفندقة
+                      </div>
+                      <ol>
+                        <li>
+                          <div class="avatar">
+                            <img src="images/ui/avatar.jpg" alt="" />
+                          </div>
+                          <div class="comment-info">
+                            <span class="c_name">ميرا م</span>
+                            <span class="c_date id-color">8 أغسطس 2018</span>
+                            <span class="c_reply"><a href="#">رد</a></span>
+                            <div class="clearfix"></div>
+                          </div>
+                          <div class="comment">
+                            في بلد مثل المملكة العربية السعودية تعد نسبة النمو
+                            به في أعلى مستوياتها العالمية، يحظى قطاع الفندقة
+                            والإيواء على أهمية متزايدة سيما وأن قطاع السياحة
+                            بدوره في نمو مطرد عاما بعد عام، ولنا أن نعرف أن حجم
+                            الاستثمارات في قطاع الفندقة
+                          </div>
+                        </li>
+                      </ol>
+                    </li>
+
+                    <li>
+                      <div class="avatar">
+                        <img src="images/ui/avatar.jpg" alt="" />
+                      </div>
+                      <div class="comment-info">
+                        <span class="c_name">ميرا م</span>
+                        <span class="c_date id-color">8 أغسطس 2018</span>
+                        <span class="c_reply"><a href="#">رد</a></span>
+                        <div class="clearfix"></div>
+                      </div>
+                      <div class="comment">
+                        في بلد مثل المملكة العربية السعودية تعد نسبة النمو به في
+                        أعلى مستوياتها العالمية، يحظى قطاع الفندقة والإيواء على
+                        أهمية متزايدة سيما وأن قطاع السياحة بدوره في نمو مطرد
+                        عاما بعد عام، ولنا أن نعرف أن حجم الاستثمارات في قطاع
+                        الفندقة
+                      </div>
+                      <ol>
+                        <li>
+                          <div class="avatar">
+                            <img src="images/ui/avatar.jpg" alt="" />
+                          </div>
+                          <div class="comment-info">
+                            <span class="c_name">ميرا م</span>
+                            <span class="c_date id-color">8 أغسطس 2018</span>
+                            <span class="c_reply"><a href="#">رد</a></span>
+                            <div class="clearfix"></div>
+                          </div>
+                          <div class="comment">
+                            في بلد مثل المملكة العربية السعودية تعد نسبة النمو
+                            به في أعلى مستوياتها العالمية، يحظى قطاع الفندقة
+                            والإيواء على أهمية متزايدة سيما وأن قطاع السياحة
+                            بدوره في نمو مطرد عاما بعد عام، ولنا أن نعرف أن حجم
+                            الاستثمارات في قطاع الفندقة
+                          </div>
+                        </li>
+                      </ol>
+                    </li>
+
+                    <li>
+                      <div class="avatar">
+                        <img src="images/ui/avatar.jpg" alt="" />
+                      </div>
+                      <div class="comment-info">
+                        <span class="c_name">ميرا م</span>
+                        <span class="c_date id-color">8 أغسطس 2018</span>
+                        <span class="c_reply"><a href="#">رد</a></span>
+                        <div class="clearfix"></div>
+                      </div>
+                      <div class="comment">
+                        في بلد مثل المملكة العربية السعودية تعد نسبة النمو به في
+                        أعلى مستوياتها العالمية، يحظى قطاع الفندقة والإيواء على
+                        أهمية متزايدة سيما وأن قطاع السياحة بدوره في نمو مطرد
+                        عاما بعد عام، ولنا أن نعرف أن حجم الاستثمارات في قطاع
+                        الفندقة
+                      </div>
+                    </li>
+                  </ol>
+
+                  <div class="spacer-single"></div>
+
+                  <div id="comment-form-wrapper">
+                    <h3>اترك تعليق</h3>
+                    <div class="comment_form_holder">
+                      <form
+                        id="contact_form"
+                        name="form1"
+                        method="post"
+                        action="#"
+                      >
+                        <label>الأسم</label>
+                        <input
+                          type="text"
+                          name="name"
+                          id="name"
+                          class="form-control"
+                        />
+
+                        <label>الإيميل <span class="req">*</span></label>
+                        <input
+                          type="text"
+                          name="email"
+                          id="email"
+                          class="form-control"
+                        />
+                        <div id="error_email" class="error">
+                          تفقد بريدك الالكتروني من فضلك
+                        </div>
+
+                        <label>رسالة <span class="req">*</span></label>
+                        <textarea
+                          cols="10"
+                          rows="10"
+                          name="message"
+                          id="message"
+                          class="form-control"
+                        ></textarea>
+                        <div id="error_message" class="error">
+                          تفقد بريدك الالكتروني من فضلك
+                        </div>
+                        <div id="mail_success" class="success">
+                          شكرًا لك. تم ارسال رسالتك.
+                        </div>
+                        <div id="mail_failed" class="error">
+                          خطأ، لم يتم إرسال البريد الإلكتروني
+                        </div>
+
+                        <p id="btnsubmit">
+                          <input
+                            type="submit"
+                            id="send"
+                            value="Send"
+                            class="btn btn-line"
+                          />
+                        </p>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- subheader close -->
+      <!-- footer begin -->
+      <footer class="no-top pl20 pr20">
+        <div class="subfooter">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6">
+                &copy; فندق ميرا 2023 المملكة العربية السعودية
+                <span class="id-color">كيوتيل</span>
+              </div>
+              <div class="col-md-6 text-right">
+                <div class="social-icons">
+                  <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                  <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                  <a href="#"><i class="fa fa-rss fa-lg"></i></a>
+                  <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                  <a href="#"><i class="fa fa-skype fa-lg"></i></a>
+                  <a href="#"><i class="fa fa-dribbble fa-lg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" id="back-to-top"></a>
+      </footer>
+      <!-- footer close -->
+    </div>
+
+    <!-- Javascript Files
     ================================================== -->
-        <script src="js/plugins.js"></script>
-        <script src="js/designesia.js"></script>
-    </body>
+    <script src="js/plugins.js"></script>
+    <script src="js/designesia.js"></script>
+  </body>
 </html>
