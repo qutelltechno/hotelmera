@@ -7458,7 +7458,7 @@ section.no-padding {
   text-decoration: none;
 }
 
-..owl-carousel .owl-item{
+.owl-carousel .owl-item{
   float: right !important;
 }
 
@@ -9192,7 +9192,6 @@ header.header-mobile.height-auto {
   vertical-align: middle;
   display: table-cell;
 }
-
 .slide_text.center {
   text-align: center;
 }
@@ -10743,4 +10742,40 @@ header .d-extra{
   .grid-item .pf_title {
     display: none;
   }
+}
+
+.wow  {
+letter-spacing: normal !important;
+font-family: 'Cairo', sans-serif !important;
+}
+.btn-main{
+  font-family: 'Cairo', sans-serif !important;
+}
+#mainmenu{
+  font-family: 'Cairo', sans-serif !important;
+  font-size: 18px;
+  direction: rtl !important;
+}
+h3{
+  letter-spacing: 0 !important;
+  font-family: 'Cairo', sans-serif !important;
+}
+span{
+  letter-spacing: 0 !important;
+  font-family: 'Cairo', sans-serif !important;
+}
+.de-room .d-label{
+  letter-spacing: 0 !important;
+  font-size: 14px !important;
+}
+#contact_form input[type="submit"].btn-line{
+  letter-spacing: 0 !important;
+  font-family: 'Cairo', sans-serif !important;
+}
+#subheader h1{
+  font-size: 60px !important;
+}
+.card-image-1 .d-tag{
+  letter-spacing: 0 !important;
+  font-family: 'Cairo', sans-serif !important;
 }
