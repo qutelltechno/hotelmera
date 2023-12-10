@@ -91,6 +91,8 @@ body.no-scroll::-webkit-scrollbar {
 
 .text-Right{
   text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .noselect {
@@ -8132,6 +8134,8 @@ section.no-padding {
 }
 .text-right {
   text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 
 #cookit {
@@ -9248,7 +9252,6 @@ header.header-mobile.height-auto {
   width: 100%;
   text-transform: uppercase;
   letter-spacing: .5em;
-  padding-left: .5em;
 }
 
 #slidecaption h3,

@@ -6756,6 +6756,7 @@ header.smaller .btn-on-header {
 .de-flex {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .de-flex > .de-flex-col {
@@ -7570,7 +7571,7 @@ section.no-padding {
 
 #back-to-top {
   position: fixed;
-  bottom: 40px;
+  bottom: 50px;
   right: 40px;
   z-index: 999;
   width: 32px;
@@ -9810,7 +9811,6 @@ header #logo a{
 }
 
 header .de-flex {
-   display: block;
 }
 
 header .de-flex > .de-flex-col {
@@ -10702,5 +10702,15 @@ header .d-extra{
 @media only screen and (max-width: 767px){
   .d-extra{
     display: none;
+  }
+}
+@media only screen and (max-width: 993px){
+  #mainmenu{
+    position: absolute;
+    left: 0px;
+    top: 65px;
+  }
+  #mainmenu li {
+    text-align: center;
   }
 }

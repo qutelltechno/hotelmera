@@ -18,11 +18,11 @@
   font-size: 80px !important;
   z-index: 0 !important;
 }
-.cir-back{
+.cir-back {
   padding: 15px;
   background-color: rgba(0, 0, 0, 0.199);
 }
-.tit-cont{
+.tit-cont {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,4 +34,16 @@
   margin: 0;
   border-left: 5px solid white;
   border-right: 5px solid white;
+}
+@media only screen and (max-width: 767px) {
+  .select {
+    padding: 0px 8px;
+    margin: 0px 26px 6px 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 993px) {
+  .select {
+    padding: 0px 8px;
+    margin: 0px 171px 13px 0px;
+  }
 }
