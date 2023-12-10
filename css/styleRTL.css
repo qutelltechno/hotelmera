@@ -9767,7 +9767,6 @@ header.force-header-mobile #mainmenu li ul.mega li ul {
 header.header-fullwidth{
   padding-left: 40px;
   padding-right: 40px;
-direction: ltr;
 }
 
 /* -------------------------------------------------- 
@@ -10785,4 +10784,12 @@ span{
 .back-black{
   background-color: #00000047;
   padding: 10px 0px;
+}
+
+
+
+
+/* training */
+header.header-mobile{
+  left: 0 !important;
 }
