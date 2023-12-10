@@ -1057,7 +1057,7 @@ header:not(.header-mobile):not(.force-header-mobile)
   -webkit-text-stroke-color: rgba(255, 255, 255, 1);
   transform: scale(1.2);
   color: #ffffff;*/
-}
+
 #mo-menu.mm-style-2 li.mo-parent li{
   font-size: 24px;
   line-height: 32px;
@@ -10685,6 +10685,22 @@ header .d-extra{
   }
 
   .grid-item .pf_title {
+    display: none;
+  }
+}
+
+.back-black{
+  background-color: #00000047;
+  padding: 10px 0px;
+}
+
+@media only screen and (max-width: 767px){
+  .res-im{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px){
+  .d-extra{
     display: none;
   }
 }

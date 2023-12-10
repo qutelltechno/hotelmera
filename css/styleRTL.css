@@ -10779,3 +10779,7 @@ span{
   letter-spacing: 0 !important;
   font-family: 'Cairo', sans-serif !important;
 }
+.back-black{
+  background-color: #00000047;
+  padding: 10px 0px;
+}
