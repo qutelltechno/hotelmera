@@ -1658,7 +1658,7 @@ header.smaller.header-scroll:not(.autoshow) {
 }
 
 #blog-comment ol {
-  padding-left: 30px;
+  padding-right: 30px;
 }
 
 #blog-comment li {
@@ -1673,9 +1673,6 @@ header.smaller.header-scroll:not(.autoshow) {
   margin-top: 5px;
 }
 
-#blog-comment .comment {
-  margin-left: 90px;
-}
 
 #blog-comment li {
   min-height: 70px;
@@ -1683,7 +1680,7 @@ header.smaller.header-scroll:not(.autoshow) {
 }
 
 #blog-comment li li {
-  margin-left: 55px;
+  margin-right: 55px;
   padding-bottom: 0px;
   margin-top: 20px;
   padding-top: 20px;
@@ -2316,7 +2313,6 @@ address span a {
   width: 120px;
   background: #ccc;
   display: block;
-  margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -2363,7 +2359,7 @@ a.btn-line {
   border: solid 1px #222;
   color: #fff;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 18px;
   border-radius: 0;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -2429,6 +2425,7 @@ a.btn-line:after {
   position: absolute;
   padding-left: 0px;
   margin-top: 1px;
+  right: 0px;
 }
 
 a.btn-line:hover:after {
@@ -2495,7 +2492,7 @@ a.btn-line {
 a.btn-line:after {
   font-family: FontAwesome;
   content: "\f054";
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 a.btn-line-black,
@@ -3625,7 +3622,7 @@ footer.light h6,
 }
 
 .box-icon .text {
-  margin-left: 90px;
+  margin-right: 90px;
 }
 
 .box-icon h3 {
@@ -5379,12 +5376,12 @@ p.intro {
 
 blockquote {
   margin: 20px 30px;
-  padding-left: 30px;
+  padding-right: 30px;
   font-size: 24px;
   font-family: "Georgia";
   line-height: 1.5em;
   font-weight: light;
-  border-left: solid 1px #ffffff;
+  border-right: solid 1px #ffffff;
 }
 
 blockquote span {
@@ -9242,7 +9239,6 @@ header.header-mobile.height-auto {
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 0.5em;
-  padding-left: 0.5em;
 }
 
 #slidecaption h3,
@@ -9807,6 +9803,17 @@ header.header-fullwidth {
   }
 }
 
+@media (min-width: 760px) {
+  .text-right{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .mk-m{
+    margin: 0 25%;
+  }
+}
+
+
 @media (min-width: 980px) and (max-width: 1199px) {
   header #mainmenu a {
     padding-left: 5px;
@@ -9850,7 +9857,7 @@ header.header-fullwidth {
   header .d-extra {
     position: absolute;
     top: 27px;
-    left: 80px;
+    left: 95px;
     position: absolute;
   }
 
@@ -9869,7 +9876,7 @@ header.header-fullwidth {
     margin-bottom: 0;
   }
   #slidecaption h2 {
-    font-size: 9vw;
+    font-size: 10vw;
   }
 
   #mo-menu.mm-style-2 > li > a {
@@ -10667,6 +10674,10 @@ header.header-fullwidth {
   .owl-custom-nav.nav-in-col .btn-next {
     right: 0;
   }
+  #slidecaption h2 {
+    font-size: 15vw;
+  }
+
 }
 
 /* -------------------------------------------------- 
@@ -10722,7 +10733,6 @@ header.header-fullwidth {
 #mainmenu {
   font-family: "Cairo", sans-serif !important;
   font-size: 18px;
-  direction: rtl !important;
 }
 h3 {
   letter-spacing: 0 !important;
@@ -10739,9 +10749,6 @@ span {
 #contact_form input[type="submit"].btn-line {
   letter-spacing: 0 !important;
   font-family: "Cairo", sans-serif !important;
-}
-#subheader h1 {
-  font-size: 60px !important;
 }
 .card-image-1 .d-tag {
   letter-spacing: 0 !important;
@@ -10771,4 +10778,7 @@ span {
   #mainmenu li {
     text-align: center;
   }
+}
+ul{
+  padding-left: 0 !important;
 }
